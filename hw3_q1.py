@@ -25,7 +25,7 @@ else:
     invalid_xp = True;
 
 if(invalid_xp == False):
-    print("Level",player_level,"Player (XP:",xp_points,")");
+    print("Level",player_level,"Player (XP:",str(xp_points) + ")");
 
 else:
     print("ERROR: Please enter a valid XP value.");
